@@ -1,0 +1,12 @@
+<XymonSettings>
+
+  <servers>192.168.33.10</servers>
+
+  <clientlogfile>c:\program files\xymonPS\xymonclient.log</clientlogfile>
+  <clientconfigfile>c:\program files\xymonPS\clientconfig.cfg</clientconfigfile>
+
+  <clientfqdn>0</clientfqdn>
+  <clientlower>1</clientlower>
+
+  <clientremotecfgexec>1</clientremotecfgexec>
+</XymonSettings>
