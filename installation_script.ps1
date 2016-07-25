@@ -44,3 +44,9 @@ try {
     {
     Write-Output "Unable to download, error message:  $($error[0].Exception.GetType().FullName). Tip: always check access."
     }
+
+Write-Output "Installing xymon client as service."
+Invoke-Expression "$($XymonPSPath)\xymonclient.ps1 install"
+
+Write-Output "Starting xymon client."
+Invoke-Expression "$($XymonPSPath)\xymonclient.ps1 start"
