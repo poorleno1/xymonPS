@@ -46,7 +46,7 @@ try {
     }
 
 Write-Output "Installing xymon client as service."
-Invoke-Expression "$($XymonPSPath)\xymonclient.ps1 install"
+Invoke-Expression "& `"$XymonPSPath\xymonclient.ps1`" install"
 
 Write-Output "Starting xymon client."
-Invoke-Expression "$($XymonPSPath)\xymonclient.ps1 start"
+Invoke-Expression "& `"$XymonPSPath\xymonclient.ps1`" start"
